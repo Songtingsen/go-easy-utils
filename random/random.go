@@ -35,6 +35,7 @@ func RandBool() bool {
 }
 
 // RandBoolSlice 生成指定长度的随机布尔切片。
+// https://go.dev/play/p/JXP_ettl56T
 func RandBoolSlice(length int) []bool {
 	if length <= 0 {
 		return []bool{}
@@ -296,6 +297,7 @@ func random(s string, length int) string {
 }
 
 // UUIdV4 根据RFC 4122生成版本4的随机UUID。
+// https://go.dev/play/p/nEGqyG_wpsN
 func UUIdV4() (string, error) {
 	uuid := make([]byte, 16)
 

@@ -6,6 +6,7 @@ import (
 )
 
 // 测试RandBool函数
+// https://go.dev/play/p/KQxo6gBfqQp
 func TestRandBool(t *testing.T) {
 	result := RandBool()
 	fmt.Printf("RandBool()实际结果: %v\n", result)
